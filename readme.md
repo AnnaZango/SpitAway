@@ -37,9 +37,12 @@ Below you can see a screenshot and short videos of gameplay for both PC and Andr
 This game has been developed with Unity version 2021.3.10f1 and Visual Studio 2022. It has been designed for a 16:9 resolution.
 
 
-## THIRD PARTY ASSETS
-### Alpaca sprites and animations, potions, hearts and buttons:
-- These assets have been developed by me, but the icons were obtained from: https://thenounproject.com/icons/
+## ASSETS USED
+
+The alpaca sprites and animations, as well as the potions and hearts, were developed by me. The rest of the assets have been developed by third parties, cited below.
+
+### Icons for the buttons
+- The noun project: https://thenounproject.com/icons/
 
 ### Background Sprites:
 - Craftpix: https://craftpix.net/freebies/free-cartoon-parallax-2d-backgrounds/
