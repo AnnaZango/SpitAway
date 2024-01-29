@@ -11,7 +11,9 @@ https://sharemygame.com/@AnnaZ/spit-away
 
 This game has been developed with Unity version 2021.3.10f1 and Visual Studio 2022. It has been designed to be played on a computer or on Android. To play from a computer, a keyboard and a mouse are needed. 
 
-To play from the Unity Editor, download the project and go to the MainMenu scene to start playing (Scenes/MainMenu). Alternatively, you can make a local build or a build for Android. Below you can see short videos of gameplay for both pc and Android.
+To play from the Unity Editor, download the project and go to the MainMenu scene to start playing (Scenes/MainMenu). Alternatively, you can make a local build or a build for Android. 
+
+Below you can see a screenshot and short videos of gameplay for both pc and Android.
 
 ### PC version:
 - https://www.youtube.com/watch?v=IIFA6dFXah4&ab_channel=AnnaZango
