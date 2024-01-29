@@ -1,18 +1,31 @@
-## INTRODUCCIÓ
+## INTODUCTION
 
-SPIT AWAY és un prototip de joc d'artilleria basat en dues alpaques que s'escupen l'una a l'altra! Aquest cop he volgut practicar crear assets i animacions jo mateixa, així que els sprites de les alpaques i les seves animacions, les pocions, els cors, els projectils i el disseny dels botons han estat fets per mi. 
+SPIT AWAY is a short 2D game about alpacas spitting each other. The player takes the role of the brown alpaca and plays against the white one, who spits back using a simple AI. There are three types of saliva: normal, fire, and venom; each of them has a different impact range, weight, and damange inflicted. The player and enemy both start off with normal saliva, but potion pickups will randomly appear. 
 
-El jugador té tres opcions de saliva diferents (normal, foc, i verí), i cada una té un rang d'impacte, pes, i dany causat diferent. Es comença amb tipus normal i s'han de recollir els pick ups de pocions per tenir accés als altres tipus de saliva.
-
+The turns alternate between the player and the enemy, with a time of 20 seconds to act, and the scenario tiles are destructible. Follow this link to play online: 
+https://sharemygame.com/@AnnaZ/spit-away
 
 ![Screenshot](/Images/Screenshot_pc1.jpg)
 
+## DEVELOPMENT
+
+This game has been developed with Unity version 2021.3.10f1 and Visual Studio 2022. It has been designed to be played on a computer or on Android. To play from a computer, a keyboard and a mouse are needed. 
+
+To play from the Unity Editor, download the project and go to the MainMenu scene to start playing (Scenes/MainMenu). Alternatively, you can make a local build or a build for Android. Below you can see short videos of gameplay for both pc and Android.
+
+### PC version:
+- https://www.youtube.com/watch?v=IIFA6dFXah4&ab_channel=AnnaZango
+
 ![Screenshot](/Images/Screenshot_pc4.jpg)
 
+### Android version:
+- https://www.youtube.com/watch?v=r0ev2ezrrvc&ab_channel=AnnaZango 
 
-## FONTS DELS ASSETS UTILITZATS
-### Alpaca sprites i animacions, pocions, cors i botons:
-- Aquests assess han estat desenvolupats per mi, però les icones bàsiques pels botons han estat obtingudes de: https://thenounproject.com/icons/
+![Screenshot](/Images/Screenshot_Android.jpeg)
+
+## THIRD PARTY ASSETS
+### Alpaca sprites and animations, potions, hearts and buttons:
+- These assets have been developed by me, but the icons were obtained from: https://thenounproject.com/icons/
 
 ### Background Sprites:
 - Craftpix: https://craftpix.net/freebies/free-cartoon-parallax-2d-backgrounds/
@@ -34,30 +47,9 @@ El jugador té tres opcions de saliva diferents (normal, foc, i verí), i cada u
 - Letterna studios, Balloon Dreams: https://letterena.com/product/ballon-dreams/
 
 ### Asset cleaner:
+- Employed to delete unused assets from the project: 
 https://github.com/unity-cn/Tool-UnityAssetCleaner
 
-
-## COM JUGAR
-### Aspectes tècnics:
-El joc ha estat desenvolupat en la versió 2021.3.10f1 de Unity i Visual Studio 2022. 
-El joc es pot jugar tant per mòbil com a l'ordinador. Per jugar des de l'ordinador, es necessita un teclat i un ratolí. Per jugar online, aneu al següent enllaç:
-https://sharemygame.com/@AnnaZ/spit-away
-
-Per jugar des de Unity amb l'ordinador, obriu el projecte amb Unity 2021.3.10f1. El joc ha estat dissenyat per jugar a una resolució de 16:9. Per tant, trieu aquesta resolució a la pantalla de joc.
-Aneu a Scenes/MainMenu i cliqueu-la per començar a jugar. Per jugar en local, podeu fer un build en local.
-
-#### Modificacions per la versió Android:
-A la versió per Android hi ha tres botons extra que permeten poder moure al jugador (un per anar a l'esquerra, un altre a la dreta, i un per saltar). L'input per mòbil s'ha aplicat fent servir el paquet de Standard Assets, concretament els scripts AxisTouchButton.cs, associat als botons de moure's a esquerra i dreta; i el script ButtonHandler.cs amb un Event Trigger per saltar. 
-
-Aquí podeu veure una captura de pantalla feta des d'un telèfon Android, on es poden apreciar els tres botons adicionals:
-
-![Screenshot](/Images/Screenshot_Android.jpeg)
-
-
-### Jugabilitat:
-
-
-El jugador té 20 segons per actuar en cada torn. L'objectiu del jugador és escupir (disparar) i encertar a l'alpaca enemiga. L'angle per disparar i la potència depenen de 2 sliders, i hi ha un botó per efectuar l'escopinada. L'escenari per on caminen el jugador i l'enemic és destruible, i es trenca a causa dels impactes dels projectils de saliva. Es comença amb un tipus de saliva normal (que té un rang d'impacte mig-baix i fa 1 punt de mal) i es poden accedir a diferents tipus de saliva recollint les pocions que apareixen de manera random a l'escenari. Quan es recull una poció, el botó de la saliva corresponent es torna actiu i es pot disparar amb aquest tipus de saliva. La saliva de foc té un rang d'impacte molt ampli, fa un punt de mal i pesa molt (va molt lenta). La saliva de verí, per contra, té un rang d'impacte molt reduit, fa 3 punts de mal, i pesa molt poc (va molt ràpida).
 
 ## COM S'HA DESENVOLUPAT
 
@@ -113,25 +105,3 @@ El script Extensions.cs és una extensió de Rigidbody2D i conté diversos mèto
 GameManager.cs: controla l'estat general de la partida: si ha acabat (`Set/GetIfGameFinished()`), qui guanya (`Set/GetPlayerWins()`).
 
 Timer.cs: controla el temporitzador pel player.
-
-
-  
-## ENLLAÇ AL VÍDEO DE GAMEPLAY
-
-Vídeo del joc, versió per ordinador:
-- https://www.youtube.com/watch?v=IIFA6dFXah4&ab_channel=AnnaZango
-
-Vídeo del joc, versió per Android:
-- https://www.youtube.com/watch?v=r0ev2ezrrvc&ab_channel=AnnaZango 
-
-
-
-
-
-
-
-
-
-
-
-
