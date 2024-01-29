@@ -39,7 +39,7 @@ Below you can see a screenshot and short videos of gameplay for both pc and Andr
 ### Particle effects:
 - Jean Moreno: https://assetstore.unity.com/packages/vfx/particles/cartoon-fx-remaster-free-109565
 
-### Música i sfx:
+### Music and sfx:
 - Juhani Junkala: https://juhanijunkala.com/ 
 - 3xBlast, Harm-Jan Wiechers: https://opengameart.org/content/bleeps-and-synths
 - Bart Kelsey: https://opengameart.org/content/8-bit-platformer-sfx
