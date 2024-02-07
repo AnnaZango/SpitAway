@@ -18,8 +18,8 @@ Controls:
 - Change angle and power: adjust sliders (both PC and Android)
 - Choose bullet type: bullet buttons (both PC and Android)
 
-Follow this link to play online: 
-https://sharemygame.com/@AnnaZ/spit-away
+Follow this link to play online: https://sharemygame.com/@AnnaZ/spit-away
+
 To play from the Unity Editor, download the project and go to the MainMenu scene to start playing (Scenes/MainMenu). Alternatively, you can make a local build or a build for Android. 
 Below you can see a screenshot and short videos of gameplay for both PC and Android.
 
