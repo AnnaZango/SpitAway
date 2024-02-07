@@ -2,8 +2,7 @@
 
 SPIT AWAY is a short 2D game about alpacas spitting each other. The player takes the role of the brown alpaca and plays against the white one, who spits back using a simple AI. There are three types of saliva: normal, fire, and venom; each of them has a different impact range, weight, and damange inflicted. The player and enemy both start off with normal saliva, but potion pickups will randomly appear. 
 
-The turns alternate between the player and the enemy, with a time of 20 seconds to act, and the scenario tiles are destructible. Follow this link to play online: 
-https://sharemygame.com/@AnnaZ/spit-away
+The turns alternate between the player and the enemy, with a time of 20 seconds to act, and the scenario tiles are destructible. 
 
 ![Screenshot](/Images/Screenshot_pc1.jpg)
 
@@ -19,6 +18,8 @@ Controls:
 - Change angle and power: adjust sliders (both PC and Android)
 - Choose bullet type: bullet buttons (both PC and Android)
 
+Follow this link to play online: 
+https://sharemygame.com/@AnnaZ/spit-away
 To play from the Unity Editor, download the project and go to the MainMenu scene to start playing (Scenes/MainMenu). Alternatively, you can make a local build or a build for Android. 
 Below you can see a screenshot and short videos of gameplay for both PC and Android.
 
