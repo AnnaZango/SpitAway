@@ -20,7 +20,9 @@ Controls:
 
 Follow this link to play online: https://sharemygame.com/@AnnaZ/spit-away
 
-To play from the Unity Editor, download the project and go to the MainMenu scene to start playing (Scenes/MainMenu). Alternatively, you can make a local build or a build for Android. 
+To play from the Unity Editor, download the project and go to the MainMenu scene to start playing (Scenes/MainMenu). Alternatively, you can make a local build or a build for Android. To make the builds, go to File/Build Settings. For the local build for pc, select "Windos, Mac, Linux" as Platform, and on target platform, select "Windows". Then, click on the "Build and Run" button to make the local build. 
+For the Android build, the Android Build Support module needs to be installed in Unity. To install it, open Unity Hub, go to Installs, and add the module to the Unity version 2021.3.10f1. Then open Unity, and go to File/Build Settings. Select "Android" as Platform and click on "Switch platform" to change the build settings from pc to Android. Connect your Android phone to your computer. In Run Device, you need to select the connected device (note that Developer mode needs to be enabled on your phone, and you may need to click on referesh so it shows up), and enable Development Build. Finally, click on "Build and Run". If you get a pop up on your phone asking what transfer mode to use, select photo transfer.
+
 Below you can see a screenshot and short videos of gameplay for both PC and Android.
 
 ### PC version:
